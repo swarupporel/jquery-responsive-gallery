@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>:: DEMO ::</title>
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/demo.js"></script>
+<!--<link rel="stylesheet" href="css/colorbox.css" />
+<script src="js/jquery.colorbox.js"></script>-->
+<!-- Magnific Popup core CSS file -->
+<link rel="stylesheet" href="css/magnific-popup.css"> 
+<!-- Magnific Popup core JS file -->
+<script src="js/jquery.magnific-popup.js"></script> 
+<script language="javascript">
+$(document).ready(function() {
+	//alert('d');
+	$('#swarupGallery').mycaptcha({
+		width: '100',
+		navHolder: '#navHolder',
+		nextText: '+ DE PHOTOS',
+		prevText: '< RETOUR A L’EQUIPE',
+		coloum: 12,
+		gutterSpace: 10,
+	});
+	//$(".group2").colorbox({rel:'group2', transition:"fade"});
+});
+</script>
+<style>
+body{
+	padding:0;
+	margin:0;
+}
+#swarupGallery{
+	width:100%;
+	height:auto;
+}
+#swarupGallery ul{
+	width:100%;
+	height:auto;
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+#swarupGallery ul li{
+	-webkit-transition: all .2s ease-in;
+	-moz-transition: all .2s ease-in;
+	-o-transition: all .2s ease-in;
+	-ms-transition: all .2s ease-in;
+	transition: all .2s ease-in;
+}
+#swarupGallery ul li:hover{
+	opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+#swarupGallery #sscsworld{
+	width:100%;
+	height:auto;
+	display:block;
+}
+#swarupGallery .gallary-row{
+	width:100%;
+	height:auto;
+	/*position:absolute;*/
+}
+#swarupGallery #navHolder{
+	width:100%;
+	height:30px;
+	line-height:30px;
+	padding:0;
+	margin:0;
+	position: absolute;
+}
+.spacer{
+	width:100%;
+	height:0px;
+	margin:0;
+	padding:0;
+	clear:both;
+	display:block;
+}
+.swa-nav{
+	width:auto;
+	display:inline-block;
+	height:30px;
+	position:absolute;
+	cursor:pointer;
+	padding:0 5px;
+}
+#next-swa{
+	right:0px;
+	top:0px;
+}
+#prev-swa{
+	left:0px;
+	top:0px;
+}
+.kkk{
+	display:none
+}
+</style>
+</head>
+
+<body>
+<div id="swarupGallery">
+    <ul>
+        <li><a href="images/big/1.jpg"><img src="images/1.jpg" width="190" height="190" alt="image 01" /></a></li>
+        <li><a href="images/big/2.jpg"><img src="images/2.jpg" width="190" height="190" alt="image 02" /></a></li>
+        <li><a href="images/big/3.jpg"><img src="images/3.jpg" width="190" height="190" alt="image 03" /></a></li>
+        <li><a href="images/big/4.jpg"><img src="images/4.jpg" width="190" height="190" alt="image 04" /></a></li>
+        <li><a href="images/big/5.jpg"><img src="images/5.jpg" width="190" height="190" alt="image 05" /></a></li>
+        <li><a href="images/big/6.jpg"><img src="images/6.jpg" width="190" height="190" alt="image 06" /></a></li>
+        <li><a href="images/big/7.jpg"><img src="images/7.jpg" width="190" height="190" alt="image 07" /></a></li>
+        <li><a href="images/big/8.jpg"><img src="images/8.jpg" width="190" height="190" alt="image 08" /></a></li>
+        <li><a href="images/big/9.jpg"><img src="images/9.jpg" width="190" height="190" alt="image 09" /></a></li>
+        <li><a href="images/big/10.jpg"><img src="images/10.jpg" width="190" height="190" alt="image 10" /></a></li>
+        <li><a href="images/big/11.jpg"><img src="images/11.jpg" width="190" height="190" alt="image 11" /></a></li>
+        <li><a href="images/big/12.jpg"><img src="images/12.jpg" width="190" height="190" alt="image 12" /></a></li>
+        <li><a href="images/big/13.jpg"><img src="images/13.jpg" width="190" height="190" alt="image 13" /></a></li>
+        <li><a href="images/big/14.jpg"><img src="images/14.jpg" width="190" height="190" alt="image 14" /></a></li>
+        <li><a href="images/big/15.jpg"><img src="images/15.jpg" width="190" height="190" alt="image 15" /></a></li>
+        <li><a href="images/big/16.jpg"><img src="images/16.jpg" width="190" height="190" alt="image 16" /></a></li>
+        <li><a href="images/big/17.jpg"><img src="images/17.jpg" width="190" height="190" alt="image 17" /></a></li>
+        <li><a href="images/big/18.jpg"><img src="images/18.jpg" width="190" height="190" alt="image 18" /></a></li>
+        <li><a href="images/big/19.jpg"><img src="images/19.jpg" width="190" height="190" alt="image 19" /></a></li>
+        <li><a href="images/big/20.jpg"><img src="images/20.jpg" width="190" height="190" alt="image 20" /></a></li>
+    </ul>
+    <div id="navHolder"></div>
+</div>
+</body>
+</html>
